@@ -1,1 +1,9 @@
-p rates#index
+.pricing-header.px-3.py-3.pt-md-5.pb-md-4.mx-auto.text-center
+  h1.display-4 Курс доллара
+  p.lead У нас всегда актуальный курс доллара.
+.card-deck.mb-3.text-center
+  .card.mb-4.shadow-sm
+    .card-header
+      h4.my-0.ont-weight-normal Доллар
+    .card-body
+      h1.card-title.pricing-card-title = "USD CBR #{@current_dollar}"
